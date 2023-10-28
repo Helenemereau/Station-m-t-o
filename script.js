@@ -21,7 +21,7 @@ changer.addEventListener("click", () => {
     if (requete.status === 200) {
       const data = requete.response;
       let temp = data.main.temp;
-      document.querySelector("#temperature").textContent =temp;
+      document.querySelector("#temperature_label").textContent =temp;
   
       console.log(data);
 

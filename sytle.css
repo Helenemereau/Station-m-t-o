@@ -8,6 +8,7 @@ html, body {
   
   #ville {
     text-transform: capitalize;
+    font-size: 30px;
   }
   
   #temperature {
@@ -21,4 +22,10 @@ html, body {
   .container{
     padding-top: 200px;
     text-align: center;
+  }
+
+  button{
+    border-radius: 5px;
+    padding:5px;
+    margin:20px;
   }
